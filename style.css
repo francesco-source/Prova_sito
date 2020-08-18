@@ -1,147 +1,121 @@
 @charset "utf-8";
 
+
 #container {
     width: 950px;
     height: auto;
     margin-right: auto;
     margin-left: auto;
+    /*border: thick solid gray;*/
 }
 
-#header {
-    background-color: #4ecadc;
+#cima{
+    background-color: #3f5fa0;
     text-align: center;
     height: 200px;
     width: 950px;
-    float: left;
+    float:left;
 }
 
-#topNav {
-    background-color: #4ecadc;
+#topNav{
+    background-color :#808080;
     height: 50px;
-    width: 950px;
-    float: left;
+    width:950px;
+    float:left;
+
 }
 
-#content {
-    background-color: #4ecadc;
-    height: auto;
+#contenuto{
+    background-color: #e6d5d5;
+    height:auto;
     width: 950px;
-    float: left;
-}
+    float:left;
+    height:500px;
 
-#footer {
-    background-color: #4ecadc;
-    height: 50px;
-    width: 950px;
-    float: left;
 }
 
 body {
-    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-family: Arial;
+    font-size: medium;
     font-style: normal;
     font-weight: normal;
-    color: #ffffff;
+    color: #fff;
     background-image: url(https://thumbs.dreamstime.com/b/formule-di-fisica-struttura-senza-giunte-lavagna-della-scuola-con-le-e-equazioni-stile-dipinto-mano-144703342.jpg);
     background-repeat: repeat;
     background-position: center top;
+   
 }
 
-h1 {
-    font-family: "Courier New", Courier, monospace;
+h1{
+    font-family: 'Times New Roman';
     font-weight: bold;
-    color: white;
     font-size: 300%;
+    color: #000000;
+
 }
 
 h2 {
-    font-family: "Courier New", Courier, monospace;
+    font-family : 'Times New Roman';
     font-weight: bold;
-    color: white;
+    color: #000000;
     font-size: 200%;
+    margin-left: 5%;
 }
 
-img {
-    float: right;
-    border: thin solid black;
-    margin: 5px;
-}
-
-.testoEnfasi {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: bolder;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 20px;
-}
-
-.elenco {
-    list-style-type: square;
-    text-transform: lowercase;
-}
-
-/* Stili per il footer */
-
-#container #footer p{
-
-    font-size: 11px;
-    color: #000;
-    text-align: center;
-}
-#container #footer p a {
-    font-size: 11px;
-    color: #000;
-    text-align: center;
-    text-decoration: none;
-}
-
-/* colore diverso al passaggio del mouse*/
-
-#container #footer p a:hover{
-    color:#ccc;
-}
-
-/* stile menu orizzontale*/
 #container #topNav .menu{
-    margin:0px;
-    list-style-type: none;
-    /* per centrare il menu*/
+    margin: 0px;
+    list-style-type:none;
     padding-left:100px;
 }
 
 #container #topNav .menu li{
-
     display: block;
-    float: left;/* elementi su una singola riga */
+    float:left;
 }
 
 #container #topNav .menu li a{
-    font-family:"Courier New",Courier New, monospace;
-    background-color: #FFF;
-    font-size: 18px;
+    font-family: 'Times New Roman';
+    background-color: #f1bcbc;
+    font-size: 14px;
     color: #333;
     display: block;
     font-weight: bold;
     text-decoration: none;
     width: 150px;
     height: 50px;
-    text-align:center;
-    padding-top: 16px;/* font di 18 facciamo 50 -18=32 32/2 ==16 cosi è perfettamen te centrato*/
+    text-align: center;
+    padding-top: 16px; /* font di 18 facciamo 50 -18=32 32/2 ==16 cosi è perfettamen te centrato*/
     border-right-width: thin;
     border-right-style: solid;
     border-right-color: #fff;
-
 }
 
-#container #topNav .menu li a:hover{
+#container #topNav .menu li a:hover {
     background-color: #666;
 }
 
-#container #topNav .menu .home.active{
+#container #topNav .menu .home.active {
     border-left: thin;
-    border-left-color:#fff;
+    border-left-color: #fff;
     border-left-style: solid;
     background-color: #ccc;
+}
+
+p{
+    color: #000000;
+    font-size: 20px;
+    margin-left:5%;
+    margin-right:5%;
+   text-align: justify;
+}
+ #pie_pagina{
+    background-color: #3f5fa0;
+    text-align: center;
+    width: 950px;
+    height:50px;
+    float: left;
+}
+
+h3{
+    color: #000000;    
 }
